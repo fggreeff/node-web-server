@@ -14,6 +14,6 @@ To run locally, this project requires Node.js (at least version 8).
 
 Clone the repo and `cd` into the directory. Run `npm i` to install package dependencies
 
-# Running the server
+## Running the server
 
-Run `node server.js` to run the service. Visit [Localhost](`http://localhost:4000/`) to view the home page
+Run `npm start` to run the service. Visit [Localhost](http://localhost:4000/) to view the home page
