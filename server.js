@@ -5,7 +5,6 @@ const fs = require('fs')
 var app = express()
 hbs.registerPartials(__dirname + '/views/partials')
 app.set('view engine', 'hbs')
-app.use(express.static(__dirname + '/public'))
 
 app.use((req, res, next) => {
   var now = new Date().toString()
@@ -18,9 +17,14 @@ app.use((req, res, next) => {
       console.log('Unable to append to server.log')
     }
   })
-
   next()
 })
+
+// app.use((req, res, next) => {
+//   res.render('maintenance.hbs')
+// })
+
+app.use(express.static(__dirname + '/public'))
 
 hbs.registerHelper('getCurrentYear', () => {
   return new Date().getFullYear()
