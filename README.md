@@ -18,7 +18,7 @@ Clone the repo and `cd` into the directory. Run `npm i` to install package depen
 
 Run `npm start` to run the service. Visit [Localhost](http://localhost:4000/) to view the home page locally.
 
-# Deployment
+## Deployment
 
 Access a deployed version (Demo)
 [Heroku](https://possessed-blood-26401.herokuapp.com/)
