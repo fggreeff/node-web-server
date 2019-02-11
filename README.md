@@ -16,4 +16,13 @@ Clone the repo and `cd` into the directory. Run `npm i` to install package depen
 
 ## Running the server
 
-Run `npm start` to run the service. Visit [Localhost](http://localhost:4000/) to view the home page
+Run `npm start` to run the service. Visit [Localhost](http://localhost:4000/) to view the home page locally.
+
+# Deployment
+
+Access a deployed version (Demo)
+[Heroku](https://possessed-blood-26401.herokuapp.com/)
+
+## Source
+
+[Resource](https://www.udemy.com/the-complete-nodejs-developer-course-2)
